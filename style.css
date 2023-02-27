@@ -81,7 +81,7 @@ button{
 
 /* Menu */
 .first-menu{
-    position: absolute;
+    position: relative;
     color: aliceblue;
     top:1vh;
     left:1vw;
