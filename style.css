@@ -2,10 +2,6 @@ html,body{
     margin: 0;
     padding: 0;
 }
-
-body{
-    display: flex;
-}
 /********************HEADER********************/
 .img1{
     z-index: -1;
