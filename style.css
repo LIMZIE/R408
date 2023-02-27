@@ -1,5 +1,5 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
 html,body{
     margin: 0;
     padding: 0;
@@ -15,12 +15,15 @@ article:nth-of-type(2) h2{
    font-size: 1em;
    font-weight: lighter;
    margin-bottom: 0;
+   font-family: 'Cantarell', sans-serif;
 }
 article:nth-of-type(2) #titre{
     font-size: 2em;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 10vh;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 5px;
  }
 article .shop{
     width: 100%;
