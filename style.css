@@ -4,10 +4,9 @@ html,body{
 }
 
 /********************HEADER********************/
-.pageCoffe1{
-    background-image: url("img/coffe1.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+header img{
+    z-index: -1;
+    position: absolute;
     height: 100vh;
     width: 100vw;
 }
