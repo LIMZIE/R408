@@ -3,22 +3,48 @@ html,body{
     padding: 0;
 }
 
+body{
+    display: flex;
+}
 /********************HEADER********************/
-header img{
+img{
     z-index: -1;
     position: absolute;
     height: 100vh;
     width: 100vw;
+    top: 0;
+    left: 0;
 }
-/* Menu */
 
+.pageCoffe1{
+    position: absolute;
+    color: aliceblue;
+    top: 30vh;
+    left: 20vw;
+}
+.pageCoffe1 p{
+    font-size: 24px;
+}
+.pageCoffe1 h1{
+    font-size: 42px;
+}
+.pageCoffe1 button{
+    height: 6vh;
+}
+
+
+
+/* Menu */
 .first-menu{
-    margin: 50px 200px;
+    position: absolute;
+    color: aliceblue;
+    top:1vh;
+    left:1vw;
 }
 
 .menu{
     list-style: none;
-    display: flex;
+    display: flex;    
 }
 .menu li{
     padding-left: 40px;
