@@ -25,9 +25,10 @@ html,body{
     padding-left: 40px;
 }
 .menu li:first-child{
-    margin-left:-80px ;
+    margin-left:-40px ;
 }
 
+/* menu gauche */
 .Coffee1{
 display: flex;
 flex-direction: row;
@@ -36,7 +37,8 @@ align-items: center;
 margin-top: 20px;
 }
 .menuCoffee{
-    width: 30vw;
+  
+    width: 90vw;
 }
 .menuCoffee img{
     background-size: contain;
@@ -47,9 +49,65 @@ margin-top: 20px;
 }
 .Coffee1 p{
   width: 30vw;
+  padding: 10px;
     }
 .Coffee1 span{
     position: relative;
-    left: 50%;
+    left: 60%;
     font-size: large;
   }
+  /* menu droite */
+.Coffee2{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40vw;
+    }
+    .menuCoffee2 img{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 75px;
+        height: 75px;
+        border-radius: 100%;
+    }
+    .Coffee2 p{
+      width: 30vw;
+      padding: 10px;
+        }
+    .Coffee2 span{
+        position: relative;
+        left: 60%;
+        font-size: large;
+      }
+.right{
+    position: relative;
+    bottom: 52.5vh;
+}
+ 
+@media screen and (max-width: 1565px) {
+
+    .right{
+   
+        bottom: 60vh;
+    }
+     
+
+
+}
+.right2{
+    position: relative;
+    left: 80%;
+    font-size: 3em;
+   
+}
+li:first-of-type{
+   
+    padding: 0px;
+    color: black;
+    width: 50px;
+    height: 20px; 
+    border-bottom: 2px black solid;
+}
