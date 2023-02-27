@@ -1,6 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
 html,body{
     margin: 0;
     padding: 0;
+}
+
+article:nth-of-type(2){
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+article:nth-of-type(2) h2{
+   font-size: 1em;
+   font-weight: lighter;
+   margin-bottom: 0;
+   font-family: 'Cantarell', sans-serif;
+}
+article:nth-of-type(2) #titre{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10vh;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 5px;
+ }
+article .shop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+article .shop p{
+    margin: 1% 0 0% 0;
+}
+article .shop .content_left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article .shop .content_left img{
+    width: 110%;
+
+}
+article .shop  p:last-of-type{
+    margin-top: 3.5%;
+}
+article .shop .content_right{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+article .shop .content_right img{
+    width: 30%;
+
+}
+article .shop .content_right .product{
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article .shop .content_right .product:nth-of-type(3),.product:nth-of-type(4) {
+    margin-top: 5%;
+}
+
+article .actu {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+article .actu .img1{
+    flex: 0 1 40%;
+    background-color: red;
+}
+
+article .actu .img2{
+    flex: 0 1 58%;
+    background-color: cyan;
 }
 /********************HEADER********************/
 .img1{
@@ -88,7 +179,7 @@ button{
 }
 
 
-
+/*footer*/
 * {
 	margin:0;
 	padding:0;
