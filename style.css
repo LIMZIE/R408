@@ -35,6 +35,9 @@ justify-content: flex-start;
 align-items: center;
 margin-top: 20px;
 }
+.menuCoffee{
+    width: 30vw;
+}
 .menuCoffee img{
     background-size: contain;
     background-repeat: no-repeat;
@@ -47,6 +50,6 @@ margin-top: 20px;
     }
 .Coffee1 span{
     position: relative;
-    left: 60%;
+    left: 50%;
     font-size: large;
   }
