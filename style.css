@@ -93,3 +93,87 @@ article .actu .img2{
     flex: 0 1 58%;
     background-color: cyan;
 }
+/********************HEADER********************/
+.img1{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 99vw;
+    top: 0;
+    left: 0;
+}
+.img2{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 99vw;
+    top: 100vh;
+    left: 0;
+}
+.img3{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 99vw;
+    top: 200vh;
+    left: 0;
+}
+
+.pageCoffe1{
+    position: absolute;
+    color: aliceblue;
+    top: 30vh;
+    left: 20vw;
+}
+
+.pageCoffe2{
+    position: absolute;
+    color: aliceblue;
+    top: 130vh;
+    right: 20vw;
+}
+
+.pageCoffe3{
+    position: absolute;
+    color: aliceblue;
+    top: 230vh;
+    left: 20vw;
+}
+
+.pageCoffe2 p{
+    width: 40vw;
+}
+.pageCoffe3 p{
+    width: 40vw;
+}
+
+p{
+    font-size: 24px;
+}
+h1{
+    font-size: 42px;
+}
+button{
+    height: 6vh;
+}
+
+
+
+/* Menu */
+.first-menu{
+    position: absolute;
+    color: aliceblue;
+    top:1vh;
+    left:1vw;
+}
+
+.menu{
+    list-style: none;
+    display: flex;    
+}
+.menu li{
+    padding-left: 40px;
+}
+.menu li:first-child{
+    margin-left:-80px ;
+}
