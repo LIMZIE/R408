@@ -75,3 +75,21 @@ article .shop .content_right .product:nth-of-type(3),.product:nth-of-type(4) {
     margin-top: 5%;
 }
 
+article .actu {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+article .actu .img1{
+    flex: 0 1 40%;
+    background-color: red;
+}
+
+article .actu .img2{
+    flex: 0 1 58%;
+    background-color: cyan;
+}
