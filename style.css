@@ -7,12 +7,28 @@ body{
     display: flex;
 }
 /********************HEADER********************/
-img{
+.img1{
     z-index: -1;
     position: absolute;
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
     top: 0;
+    left: 0;
+}
+.img2{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 99vw;
+    top: 100vh;
+    left: 0;
+}
+.img3{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 99vw;
+    top: 200vh;
     left: 0;
 }
 
@@ -22,13 +38,32 @@ img{
     top: 30vh;
     left: 20vw;
 }
-.pageCoffe1 p{
+
+.pageCoffe2{
+    position: absolute;
+    color: aliceblue;
+    top: 130vh;
+    right: 20vw;
+}
+
+.pageCoffe3{
+    position: absolute;
+    color: aliceblue;
+    top: 230vh;
+    left: 20vw;
+}
+
+.pageCoffe2 p{
+    width: 25vw;
+}
+
+p{
     font-size: 24px;
 }
-.pageCoffe1 h1{
+h1{
     font-size: 42px;
 }
-.pageCoffe1 button{
+button{
     height: 6vh;
 }
 
