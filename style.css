@@ -8,7 +8,7 @@ html,body{
     background-image: url("img/coffe1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 10vh;
     width: 100vw;
 }
 /* Menu */
@@ -27,3 +27,26 @@ html,body{
 .menu li:first-child{
     margin-left:-80px ;
 }
+
+.Coffee1{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-top: 20px;
+}
+.menuCoffee img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+.Coffee1 p{
+  width: 30vw;
+    }
+.Coffee1 span{
+    position: relative;
+    left: 60%;
+    font-size: large;
+  }
