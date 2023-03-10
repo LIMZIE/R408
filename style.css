@@ -98,7 +98,9 @@ button{
     margin-left:-80px ;
 }
 
-
+article, .container{
+    background-color: grey;
+}
 article:nth-of-type(2){
     width: 80%;
     display: flex;
@@ -200,6 +202,7 @@ margin-top: 20px;
 .menuCoffee{
     height: 60vh;
     width: 90vw;
+    overflow-y: scroll;
 }
 .menuCoffee img{
     background-size: contain;
@@ -282,6 +285,8 @@ li:first-of-type{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: absolute;
+    top: 200vh;
 }
 
 /*footer*/
@@ -297,7 +302,10 @@ li:first-of-type{
 	text-rendering:optimizeLegibility;
 }
 
-
+footer{
+    position: absolute;
+    top: 600vh;
+}
 
 .container {
 	max-width:800px;
