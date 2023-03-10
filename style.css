@@ -124,8 +124,7 @@ margin-top: 20px;
     font-size: large;
   }
   /* menu droite */
-.Coffee2{
-   
+.Coffee2{   
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
